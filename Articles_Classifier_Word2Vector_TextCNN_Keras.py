@@ -3,13 +3,10 @@
 设置卷积神经网络架构，1层C-P，1层Dense，输出层 n_class、softmax
 Model:TextCNN, 1 layer 1D Convolutional,1-max(Try K-max以后再说) pooling + 1 layer dense + softmax
 Create Time: 2018-05-17
-AceKimi@ZY.bigdata
+Author:AceKimi
 
 Update:
 2018-05-14
-原：Word2Vector是使用交大沈老师合作项目学生所提供的（现有语料库太少，训练没任何意义）
-Training出来无法使用(vectors.bin)，没有过滤数字/英文，没有用停用词表。
-现：重新Training，Based on人力资源语料库（自己收集）
 Keras版本
 
 2018-05-17
