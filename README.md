@@ -15,6 +15,5 @@ https://raw.githubusercontent.com/skydark/nstools/master/zhtools/zh_wiki.py  
 1、Articles_Classifer_TF-IDF_GBDT.py 文件为决策树模型及TF-IDF值为词向量  
 2、Articles_Classifier_Word2Vector_TextCNN_Keras.py 为最简易的卷积神经网络的分类模型  
 架构：1D-Convolutional Layer + 1-Max Pooling Layer + Flatten Layer+ Dropout Layer+ Dense Layer + Softmax Layer  
-
 3、Extract_Articles_zhwiki_latest_pages.py 抽取最新的Wiki中文语料库的文件，路径换成自己的即可，将Json格式转换为一行一篇文章存储在txt中  
 4、Word2Vector_Training.py 训练自己/Wiki_Zh的词向量，可以根据自己需求更改，Comment掉的Code可以根据需求切换。
