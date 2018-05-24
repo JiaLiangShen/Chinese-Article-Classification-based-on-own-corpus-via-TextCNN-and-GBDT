@@ -1,6 +1,6 @@
 """
 训练中文的词向量，去除停用词，数字，英文
-由于编码问题解决不了，直接训练自己的语料库的word2vector
+训练自己的语料库/Wiki_Zh的word2vector
 """
 # -*- coding: utf-8 -*-
 # ! /usr/bin/env python
