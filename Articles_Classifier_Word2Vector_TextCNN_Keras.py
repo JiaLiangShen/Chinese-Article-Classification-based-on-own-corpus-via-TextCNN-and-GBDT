@@ -1,5 +1,5 @@
 """
-依然是用Word Embedding作Feature，只不过把每篇文章的tf-idf词向量值换为Word2Vector值，pre-train使用人力资源语料库
+依然是用Word Embedding作Feature，只不过把每篇文章的tf-idf词向量值换为Word2Vector值，Pre-train为自己的语料库
 设置卷积神经网络架构，1层C-P，1层Dense，输出层 n_class、softmax
 Model:TextCNN, 1 layer 1D Convolutional,1-max(Try K-max以后再说) pooling + 1 layer dense + softmax
 Create Time: 2018-05-17
