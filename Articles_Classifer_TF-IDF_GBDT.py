@@ -1,16 +1,12 @@
 """
 Author: AceKimi
-ZY@Big Data Department
 对未标识标签的文章分类
 Steps:
 1、对训练文本进行归一化、停用词、去低频次（语料库过少，为了保留Feature，未作）
 及特征工程（务必将训练文本放入语料库，不然字典长度及单词缺失将会非常影响分类性能）
 2、将所有训练文档表达为未Feature：tf-idf值的词向量（需要调用Scipy的密度向量函数）
-3、扔进SVM和GBDT的分类模型去跑（样本太少，调参没什么意义）
+3、扔进SVM和GBDT的分类模型去跑
 
-Result:Mean Accuracy In Training Data
-SVM:38%(Underfit)
-GBDT: 100%(Overfit)
 
 Input Feature: TF-IDF, Word Embedding(Word2Vector, not large enough domain corpus)
 Classifier: Support Vector Machine,Gradient Boosting Decision Trees
