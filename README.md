@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/skydark/nstools/master/zhtools/zh_wiki.py  
 
 
 -------------------------------------------------------------------------------------------------------------
-#English Version Description
+# English Version Description
 ## Create Time: 2018-05-24
 You could use your own corpus to start this project, the sample will be showed in Data_Source/sample.csv(Later update)  
 Two different Simple Text Classfier models was constructed.
